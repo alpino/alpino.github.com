@@ -1,0 +1,17 @@
+#main {
+  width: 90%;
+  background: url("../img/bg.png");
+}
+#main p {
+  color: #ff9999;
+  font-size: 14px;
+}
+#main p .sub {
+  font-size: 12px;
+}
+#main p a {
+  text-decorationo: none;
+}
+#main p a:hover {
+  font-weight: bold;
+}

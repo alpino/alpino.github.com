@@ -1,0 +1,25 @@
+
+//変数
+//データ型（数値、文字列、真偽、色、リスト）
+
+
+$imgDir: "../img/";
+$baseFontSize: 14px;
+$brandColor: red;
+
+#main {
+	width: 90%;
+	p {
+		color: lighten($brandColor, 30%);
+		font-size: $baseFontSize;
+		.sub {
+			font-size: $baseFontSize - 2px;
+		}
+		a {
+			text-decorationo: none;
+			&:hover {
+				font-weight: bold;
+			}
+		}
+	}
+}
